@@ -52,16 +52,13 @@ Entity ID: https://accounts.google.com/o/saml2?idpid=XXX
 ### Run App Container 
 
 docker build -t node-app:latest ./promptbox
+
 docker-compose up -d 
+
 docker run -p 3000:3000 node-app
+
  
 
 ### Git 
 
- 
- 
 
-Client ID: 79795455903-lqmrps1dpsfe2nu5pejo5rlm3jop0lqs.apps.googleusercontent.com
-Client secret: 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
-
-{"web":{"client_id":"79795455903-lqmrps1dpsfe2nu5pejo5rlm3jop0lqs.apps.googleusercontent.com","project_id":"softtech-vector-database-test","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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"}}
