@@ -40,13 +40,13 @@
   
 ### set GCP oAuth Env
  
-    echo 'export GOOGLE_CLIENT_ID="79795455903-lqmrps1dpsfe2nu5pejo5rlm3jop0lqs.apps.googleusercontent.com"' >> ~/.bashrc
-    echo 'export GOOGLE_CLIENT_SECRET="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"' >> ~/.bashrc
+    echo 'export GOOGLE_CLIENT_ID="XXX"' >> ~/.bashrc
+    echo 'export GOOGLE_CLIENT_SECRET="XXX"' >> ~/.bashrc
  
 ### set SSO SAML 2.0 
 
-SSO URL: https://accounts.google.com/o/saml2/idp?idpid=C00qv5ewh
-Entity ID: https://accounts.google.com/o/saml2?idpid=C00qv5ewh
+SSO URL: https://accounts.google.com/o/saml2/idp?idpid=XXX
+Entity ID: https://accounts.google.com/o/saml2?idpid=XXX
 
 
 ### Run App Container 
@@ -58,25 +58,7 @@ docker run -p 3000:3000 node-app
 
 ### Git 
 
-
-git config --global credential.helper store
-git push https://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@github.com/erdoganali/promptbox_docker.git
-git add .
-git commit -m "first"
-git push origin main
-
-
-
-
-
-git init
-git add .
-git commit -m "İlk commit" 
-git remote add origin https://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@github.com/erdoganali/promptbox.git
-
-git push -u origin main
-
-erdoganali 
+ 
  
 
 Client ID: 79795455903-lqmrps1dpsfe2nu5pejo5rlm3jop0lqs.apps.googleusercontent.com
